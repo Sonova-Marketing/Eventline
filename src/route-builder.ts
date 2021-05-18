@@ -40,7 +40,7 @@ export class RouteBuilder {
      * @returns 
      * @memberof RouteBuilder
      */
-    then(action: (any) => any) {
+    then(action: (fn: any) => any) {
 
         this.routes.forEach(route => {
             route.then(action)

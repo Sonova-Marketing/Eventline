@@ -1,6 +1,6 @@
 {
   "name": "eventline",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "A declrative micro-framework for routing events for chatbots and applications",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
@@ -29,7 +29,7 @@
   "devDependencies": {
     "@types/jest": "^20.0.2",
     "@types/lodash": "^4.14.68",
-    "@types/node": "^8.0.4",
+    "@types/node": "ts2.9",
     "@types/xregexp": "^3.0.28",
     "ava": "^0.20.0",
     "browserify": "^14.1.0",
@@ -58,7 +58,7 @@
     "tslint-config-standard": "^6.0.1",
     "tslint-loader": "^3.5.3",
     "typedoc": "^0.7.1",
-    "typescript": "^2.3.4",
+    "typescript": "^2.9.2",
     "webpack": "^3.0.0"
   },
   "keywords": [

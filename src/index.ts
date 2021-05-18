@@ -5,6 +5,7 @@
 
 export * from './middleware'
 export * from './eventline'
+export * from './route-builder'
 export * from './get-capture-groups'
 export * from './when'
 export * from './matchers'

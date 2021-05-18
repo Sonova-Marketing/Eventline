@@ -70,7 +70,7 @@ export class Route {
      * @returns 
      * @memberof Route
      */
-    then(action: (any) => any) {
+    then(action: (event: any) => any) {
         this.actions.push(action)
     }
 

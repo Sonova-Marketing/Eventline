@@ -77,7 +77,7 @@ export class Eventline {
      * @param {(Router) => void} component 
      * @memberof Router
      */
-    use(component: (Router) => void) {
+    use(component: (router: Eventline) => void) {
         component(this)
     }
 
